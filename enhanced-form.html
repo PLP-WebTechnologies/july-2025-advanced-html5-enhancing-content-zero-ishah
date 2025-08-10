@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rihanna Fan Club – Enhanced HTML5 Project</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #111;
+            color: #fff;
+            line-height: 1.6;
+        }
+        header {
+            background: linear-gradient(45deg, #914d64, #ff7f50);
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2rem;
+        }
+        main {
+            padding: 20px;
+            max-width: 900px;
+            margin: auto;
+            background: #1b1b1b;
+            border-radius: 8px;
+        }
+        section {
+            margin-bottom: 30px;
+        }
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin-top: 10px;
+        }
+        th, td {
+            border: 1px solid #444;
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background: #ff0057;
+            color: white;
+        }
+        form {
+            background: #2a2a2a;
+            padding: 20px;
+            border-radius: 5px;
+        }
+        input, select, textarea, button {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0 15px;
+            border: none;
+            border-radius: 3px;
+        }
+        input, select, textarea {
+            background: #111;
+            color: white;
+            border: 1px solid #555;
+        }
+        button {
+            background: #ff0057;
+            color: white;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        button:hover {
+            background: #e6004c;
+        }
+        footer {
+            background: #000;
+            text-align: center;
+            padding: 10px;
+            font-size: 0.9rem;
+            margin-top: 30px;
+        }
+        img, video {
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>🎤 Rihanna Navy – Official Fan Club</h1>
+        <p>Celebrating the Queen of Pop, Fashion, and Business</p>
+    </header>
+
+    <main>
+        <!-- Section: Lists -->
+        <section>
+            <h2>🔥 Rihanna’s Achievements</h2>
+            <ul>
+                <li>9 Grammy Awards 🏆</li>
+                <li>Founder of Fenty Beauty 💄</li>
+                <li>Over 250 million records sold worldwide 🌍</li>
+                <li>Named National Hero of Barbados 🇧🇧</li>
+            </ul>
+        </section>
+
+        <!-- Section: Table -->
+        <section>
+            <h2>🎶 Iconic Rihanna Songs</h2>
+            <table>
+                <tr>
+                    <th>Song</th>
+                    <th>Album</th>
+                    <th>Year</th>
+                </tr>
+                <tr>
+                    <td>Umbrella</td>
+                    <td>Good Girl Gone Bad</td>
+                    <td>2007</td>
+                </tr>
+                <tr>
+                    <td>Diamonds</td>
+                    <td>Unapologetic</td>
+                    <td>2012</td>
+                </tr>
+                <tr>
+                    <td>Work</td>
+                    <td>ANTI</td>
+                    <td>2016</td>
+                </tr>
+            </table>
+        </section>
+
+        <!-- Section: Media -->
+        <section>
+            <h2>🎥 Rihanna Media</h2>
+            <img src="media/images.jpeg" alt="Rihanna" style="width:100%; margin-bottom:10px;">
+            <audio src="media/Rihanna - Umbrella (Orange Version) (Official Music Video) ft. JAY-Z [CvBfHwUxHIk].mp3" controls></audio>
+            <br><br>
+            <video src="media/Rihanna - Umbrella (Lyrics) ft. JAY-Z (1).mp4" controls width="100%"></video>
+        </section>
+
+        <!-- Section: HTML5 Form -->
+        <section>
+            <h2>💌 Join the Rihanna Navy</h2>
+            <form action="#" method="post">
+                <fieldset>
+                    <legend>Personal Information</legend>
+                    <label for="fname">Full Name:</label>
+                    <input type="text" id="fname" name="fname" placeholder="Enter your full name" required autocomplete="name">
+
+                    <label for="email">Email Address:</label>
+                    <input type="email" id="email" name="email" placeholder="example@email.com" required autocomplete="email">
+
+                    <label for="password">Create Password:</label>
+                    <input type="password" id="password" name="password" placeholder="Enter password" minlength="6" required>
+
+                    <label for="dob">Date of Birth:</label>
+                    <input type="date" id="dob" name="dob" required>
+
+                    <label for="phone">Phone Number:</label>
+                    <input type="tel" id="phone" name="phone" placeholder="+254 700 000000" pattern="^\+254\s\d{3}\s\d{6}$" required>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Fan Details</legend>
+                    <label for="favsong">Favourite Rihanna Song:</label>
+                    <input type="text" id="favsong" name="favsong" placeholder="e.g. Diamonds" required>
+
+                    <label for="country">Country:</label>
+                    <select id="country" name="country" required>
+                        <option value="">Select your country</option>
+                        <option value="Kenya">Kenya</option>
+                        <option value="Tanzania">Tanzania</option>
+                        <option value="Uganda">Uganda</option>
+                        <option value="Other">Other</option>
+                    </select>
+
+                    <label for="bio">Why do you love Rihanna?</label>
+                    <textarea id="bio" name="bio" placeholder="Tell us why Rihanna inspires you..." rows="4"></textarea>
+
+                    <label for="refcode">Fan Code (Read-only):</label>
+                    <input type="text" id="refcode" name="refcode" value="RIH-NAVY-2025" readonly>
+                </fieldset>
+
+                <button type="submit">Join Now</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Rihanna Navy | For Fans, By Fans</p>
+    </footer>
+</body>
+</html>
